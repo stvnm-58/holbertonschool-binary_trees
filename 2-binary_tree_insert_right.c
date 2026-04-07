@@ -1,7 +1,13 @@
 #include "binary_trees.h"
 #include <stdio.h>
-
-
+/**
+ * binary_tree_insert_right - Insère un nœud comme enfant droit d'un autre nœud.
+ * @parent: Pointeur vers le nœud où insérer l'enfant droit.
+ * @value: Valeur à stocker dans le nouveau nœud.
+ *
+ * Return: Un pointeur vers le nœud créé, ou NULL en cas d'échec
+ * ou si le parent est NULL.
+ */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node;
