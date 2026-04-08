@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * binary_tree_insert_right - Insère un nœud comme enfant droit d'un autre nœud.
  * @parent: Pointeur vers le nœud où insérer l'enfant droit.
