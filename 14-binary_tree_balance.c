@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 /**
- * height_for_balance - Mesure la hauteur d'un arbre pour le calcul d'équilibre
- * @tree: Pointeur vers la racine
- *
- * Return: La hauteur de l'arbre
- */
+*height_for_balance-Mesure la hauteur d'un arbre pour le calcul d'équilibre
+* @tree: Pointeur vers la racine
+*
+* Return: La hauteur de l'arbre
+*/
 size_t height_for_balance(const binary_tree_t *tree)
 {
 	size_t left_h = 0, right_h = 0;
