@@ -6,7 +6,8 @@
  */
 int depth(const binary_tree_t *tree)
 {
-	size_t i = 0; /*profondeur de référence*/
+	size_t i = 0; 
+
 	while (tree != NULL)
 	{
 		i++;
